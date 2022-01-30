@@ -82,6 +82,19 @@ select {
 
 /******************************************************************************/
 
+:root {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-kerning: normal;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size: 1.8rem;
+}
+
 /* vh = visually hidden */
 .vh:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
@@ -91,4 +104,41 @@ select {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid #e0e0dc;
+  border-width: 1px 0 0 1px;
+  max-width: 100%;
+  width: 100%;
+}
+
+th {
+  background-color: #e4eaee;
+  border: solid #e0e0dc;
+  border-width: 0 1px 1px 0;
+  font-weight: normal;
+  max-width: 18rem;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+td {
+  padding: 0.6rem 0.8rem;
+  border: solid #e0e0dc;
+  border-width: 0 1px 1px 0;
+}
+
+.mw1280 {
+  max-width: 128rem;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.mra {
+  margin-right: auto;
 }
