@@ -102,6 +102,10 @@ body {
   text-rendering: optimizeSpeed;
 }
 
+main:focus {
+  outline: none;
+}
+
 h1,
 h2,
 h3 {
